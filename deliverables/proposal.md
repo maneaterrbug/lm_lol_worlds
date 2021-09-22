@@ -1,7 +1,7 @@
 ### Questions/need:
 
 
-* With the League of Legends World 2021 Championship right around the corner, can we use past regional league and World's performances of professional League e-sports teams **and** their players/roles to predict future performances at World's using linear regression modeling?
+* With the League of Legends World 2021 Championship right around the corner, we are looking to answer the question: can we use past regional league and World's performances of professional League e-sports teams **and** their players/roles to predict future performances at World's using linear regression modeling?
 	* Looking to predict placement in the tournament alone appears to be more of a classification problem--as such we can look to change our target to something more predictable with a linear regression model such as the total games won over the course of the best-of-one group-stage and best-of-five knock-out stage of the tournament
 * Esports fans and analysts can benefit from this modelling in that it can give them more information with which to make predictions
 	* Potentially an esports publication or Riot themselves have contracted me to be able to have some analytics to reference in the upcoming 2021 World's
