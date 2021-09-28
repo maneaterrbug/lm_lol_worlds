@@ -50,6 +50,6 @@ for year in range(2018,2021):
 
 print(our_df.info)
 
-our_df.to_csv('test_player_db.csv', index = False, index_label = False, header = False)
+our_df.to_csv('../test_player_db.csv', index = False, index_label = False, header = False)
 #CREATE TABLE player_stats (team TEXT, player TEXT, gp INTEGER, w INTEGER, l INTEGER, 
 #wr TEXT, k INTEGER, d INTEGER, a INTEGER, kda FLOAT, cs INTEGER, csm FLOAT, g INTEGER, gm FLOAT, kpar TEXT, ks TEXT, gs TEXT, cp INTEGER, champs TEXT, region TEXT)
