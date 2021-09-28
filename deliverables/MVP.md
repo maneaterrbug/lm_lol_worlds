@@ -6,11 +6,10 @@ As such, I am instead choosing to collect and analyze used car data (with the ta
 
  Here, we will be identifying two features of interest which we believe to have some moderate-to-strong correlation with the target and evaluate them using a basic linear regression fit.
 
- ![]('../initial_feat_eval.png')
+ ![]('/../initial_feat_eval.png')
 
 Plotted above are unique linear regression models trained on each of the two features (where we are using the engineered feature log_mileage) individually and then plotted against their actual x and y values. The R^2 for these models are 0.229 and 0.602, respectively.
 
- ![]('../y_v_y.png')
+ ![]('/../y_v_y.png')
 
  When we train the model on both features, we instead come to an R^2 of 0.762 and MAE of $4205.10, and can see in the above figure (a plot of the actual price values vs the predicted price values), that these features can give us a rough idea of the listed price of the car at a lower price range.
- 
