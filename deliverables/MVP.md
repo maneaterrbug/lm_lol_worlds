@@ -1,6 +1,6 @@
 ## Analysis of Used Car Data
 
-The originally proposed concept for this project was analyzing League of Legends e-sports league data, but after spending much time scraping and analyzing the data, it was determined that depending on the approach taken there either was not enough data to meet the requirements of this project or the data points were not consistently reliable depending on when they were recorded.
+The originally proposed concept for this project was analyzing League of Legends e-sports league data,; however, after thorough web-scraping and EDA, it was determined that depending on the approach taken there either was not enough data to meet the requirements of this project or the data points were not consistently reliable depending on when they were recorded.
 
 As such, I am instead choosing to collect and analyze used car data (with the target being prices and the features being other associated car specifications). The data to be used for analyses was collected using carmax.com exclusively, and will be used to try to determine which features are most useful in predicting listed car price and whether or not they can be used in said price prediction.
 
@@ -8,7 +8,7 @@ As such, I am instead choosing to collect and analyze used car data (with the ta
 
  ![](../initial_feat_eval.png)
 
-Plotted above are unique linear regression models trained on each of the two features (where we are using the engineered feature log_mileage) individually and then plotted against their actual x and y values. The R^2 for these models are 0.229 and 0.602, respectively.
+Plotted above are unique linear regression models trained on each of the two features (where we are using the engineered feature log_mileage) individually and then plotted against their actual x and y values. The R^2 for these models are 0.229 and 0.602, respectively. As we can see, there is some kind of correlation between these features and the price, but we still may struggle to accurately price the car using these separate models alone.
 
  ![](../y_v_y.png)
 
