@@ -24,6 +24,8 @@ The dataset contains 1,293 datapoints with 25 features for each, with each uniqu
 *Models*
 
 OLS linear, lasso, and ridge regression models  were all entertained in the modeling stage, but, because of the high degree of interactivity between some of the features with strong target correlation, we opted to focus on models providing some level of regularization and complexity optimisation. We ultimately settled on a ridge regression model due to its strength in handling multi-collinearity.
+
+
 *Model eval and selection*
 
 Before performing any analysis, we split the entire dataset into 80-20 training and testing subsets. We then used the KFold method to split our training data into 5 randomly selected folds for which we trained and cross-validated our model against each fold. Finally, when assured that we had appropriately tuned our model, we applied our fit to the held-out test data. 
