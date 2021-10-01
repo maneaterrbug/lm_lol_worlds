@@ -6,7 +6,7 @@ To aid the efforts of our car listing team, we are tasked with designing a regre
 
 ## Design
 
-why did we use ridge (multi-collinearity, lasso not needed because we have already hand-selected for relevant features using a corr()) -mention the price filter
+This project is premised on the hypothetical that carmax.com is exploring improvements to their used car listing and quotation processes and is reaching out to our consulting firm to aid in developing a tool to improve accuracy and efficiency via automation. Such a tool would allow the team to get a "head-start" on their estimtated price quote, freeing up time for them to more thoroughly investigate and list cars individually.
 
 ## Data
 
@@ -49,3 +49,5 @@ Before performing any analysis, we split the entire dataset into 80-20 training 
 - Matplotlib and Seaborn for plotting
 
 ## Communication
+
+In addition to the commentary made included in the slides and accompanying presentation, we note here our confidence in the tool developed. However, for the time being, use of this tool should be restricted to cars within $25k or less range, and cars estimated aorund the window should be more thoroughly individually assessed before listing. Going forward, this tool can be further improved via either further feature selection and engineering to potentially account for higher variance at higher price-points or possible implementation of a new learning model. 
