@@ -24,16 +24,18 @@ The dataset contains 1,293 datapoints with 25 features for each, with each uniqu
 *Models*
 
 OLS linear, lasso, and ridge regression models  were all entertained in the modeling stage, but, because of the high degree of interactivity between some of the features with strong target correlation, we opted to focus on models providing some level of regularization and complexity optimisation. We ultimately settled on a ridge regression model due to its strength in handling multi-collinearity.
-**Model eval and selection**
+*Model eval and selection*
 
 Before performing any analysis, we split the entire dataset into 80-20 training and testing subsets. We then used the KFold method to split our training data into 5 randomly selected folds for which we trained and cross-validated our model against each fold. Finally, when assured that we had appropriately tuned our model, we applied our fit to the held-out test data. 
+
+
 **5-fold test data**
 * Mean of R2s: 0.596
 * Stdev of R2s: 0.109
 * MAE: $1696.23
 * RMSE: $2165.50
 
-*Held-out Test Data*
+**Held-out Test Data**
 * R2: 0.620
 * MAE: $1540.54
 * RMSE: $1929.74
